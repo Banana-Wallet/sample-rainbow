@@ -16,10 +16,11 @@ import {
 } from "@rainbow-me/rainbowkit/wallets";
 import { BananaWallet } from "@rize-labs/banana-rainbowkit-plugin";
 import { Demo } from "./demo";
+import { shibuyaChain} from "@rize-labs/banana-wallet-sdk"
 
 function App() {
   const { chains, provider } = configureChains(
-    [polygonMumbai, optimismGoerli, goerli],
+    [polygonMumbai, optimismGoerli, goerli, shibuyaChain],
     [publicProvider()]
   );
   
@@ -27,7 +28,7 @@ function App() {
     {
       groupName: "Recommended",
       wallets: [
-        BananaWallet({ chains, connect: { networkId: 80001 } }),
+        BananaWallet({ chains, connect: { networkId: 81 } }),
         metaMaskWallet({ chains, shimDisconnect: true }),
         rainbowWallet({ chains }),
         walletConnectWallet({ chains }),
