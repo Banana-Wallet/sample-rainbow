@@ -3,7 +3,7 @@
 <br/>
 <p align="center">
 <a href="" target="">
-<img src="https://github.com/rishotics/sample-rainbow/blob/main/cover.png" width="225" alt="Integration Image">
+<img src="https://github.com/Banana-Wallet/sample-rainbow/blob/main/cover.png" width="225" alt="Integration Image">
 </a>
 </p>
 <br/>
